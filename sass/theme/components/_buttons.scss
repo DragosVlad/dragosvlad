@@ -1,0 +1,23 @@
+.btn {
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.btn-main {
+	color: $text-white !important;
+	background-color: $primary;
+	// width: 300px;
+	// height: 300px;
+	// border-radius: 50%;
+	// transition: all 0.3s ease-in-out;
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	// border: 10px solid green;
+
+}
+
+.btn-accent {
+	color: $text-white !important;
+	background-color: $accent;
+}
