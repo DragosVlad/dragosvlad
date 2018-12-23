@@ -39,19 +39,34 @@
 
 
 
+  var menu = $('.navbar');
+  var menuPin = new ScrollMagic.Scene({
+    triggerElement: $('.navbar'),
+    triggerHook: 0,
+  })
+  .setPin(menu, {pushFollowers: false})
+  .addIndicators()
+  .addTo(controller);
+
+
+
 
 	if (scrollTop > 0) {
 		$('.scroll-notice').addClass('hide');
+    $('.navbar').addClass('bg-color');
 		
 	} else {
 		heroTitle.to('.scroll-notice', 1, {className:"-=hide", ease: Power1.easeIn});
+    $('.navbar').removeClass('bg-color');
 	};
 
 	$(window).scroll(function() {
 		if ($(window).scrollTop() > 0) {
 			$('.scroll-notice').addClass('hide');
+      $('.navbar').addClass('bg-color');
 		} else {
 			$('.scroll-notice').removeClass('hide');
+      $('.navbar').removeClass('bg-color');
 		};
 	});
 
@@ -68,23 +83,35 @@
         duration: '80%',
     })
     .setTween(workTl)
-    .addIndicators()
     .addTo(controller);
 
 
-    var workTl2 = new TimelineLite();
+    var workTl2 = new TimelineLite({reverse: true});
     workTl2
-    	.to('.home-work', 0.4, {backgroundColor: '#0F1623', ease: Power3.easeInOut})
-    	.to('.home-work .title', 0.4, {color: '#ECECEC', ease: Power3.easeInOut}, '0')
-    	.to('.home-hero__intro', 0.1, {className:'+=bg-change blur', ease: Power3.easeInOut}, '0');
+      .to('.home-hero__intro', 0.4, {className:'+=bg-change', ease: Power3.easeInOut}, '0')
+      ;
 
 	new ScrollMagic.Scene({
 		triggerElement: '.home-work',
-		triggerHook: 0.6,
+		triggerHook: 0.9,
     })
     .setTween(workTl2)
-    .addIndicators()
     .addTo(controller);
+
+
+    var workTl3 = new TimelineLite();
+    workTl3
+      .to('.title--work', 1, {y: '-600%'});
+
+    new ScrollMagic.Scene({
+      triggerElement: '.home-work',
+      triggerHook: 0.8,
+      duration: '250%',
+      })
+      .setTween(workTl3)
+      .addTo(controller);
+
+
 
 
 
@@ -183,12 +210,67 @@
       });
 
 
+      var contactTl = new TimelineLite();
+      contactTl
+        .to('.home-contact', 0.4, {backgroundColor: '#43474E', ease: Power3.easeInOut})
+        ;
+
+    new ScrollMagic.Scene({
+      triggerElement: '.home-contact',
+      triggerHook: 0.05,
+      })
+      .setTween(contactTl)
+      .addTo(controller);
+
+
+      var contactTl2 = new TimelineLite();
+      contactTl2
+        .to('.title--contact', 1, {y: '-500%'});
+
+      var contactHeight = $('.home-contact').height();
+
+      new ScrollMagic.Scene({
+        triggerElement: '.home-contact',
+        triggerHook: 0.6,
+        duration: contactHeight * 1.5,
+        })
+        .setTween(contactTl2)
+        .addTo(controller);
+
+
+
+
+
+     
+
+
+
+      
+
 
       // $(".owl-carousel").owlCarousel();
 
- 
-
       // $('.owl-carousel').owlCarousel({autoplay: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      
 
 

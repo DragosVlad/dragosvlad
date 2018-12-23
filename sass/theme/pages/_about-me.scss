@@ -1,0 +1,249 @@
+.main-wrapper {
+	// padding-top: 100vh;
+}
+
+
+
+.page .content-area {
+	padding: 0;
+}
+
+
+.about-section {
+	position: relative;
+
+	&:not(.about-hero) {
+		min-height: 100vh;
+		padding: 100px 0;
+		background-color: $text-white;
+	}
+
+	
+}
+
+.about-hero {
+	// height: calc(100vh + 200px);
+	height: 100vh;
+	overflow: hidden;
+	background-color: $background;
+	display: flex;
+	align-items: center;
+	margin-bottom: 300px;
+
+	> * {
+		// border: 1px solid red;
+	}
+
+	
+}
+
+	.about-intro {
+		flex-basis: 50%;
+		padding-left: 100px;
+		filter: blur(0px);
+
+		h1 {
+			font-size: 60px;
+		}
+	}
+
+	.about-photo {
+		flex: 1;
+		filter: blur(0px);
+
+	}
+
+		.about-photo-inner {
+			position: relative;
+			margin: 0 auto;
+			width: 600px;
+			height: 600px;
+			overflow: hidden;
+			border-radius: 50%;
+			
+			img {
+				position: absolute;
+				top: -10px;
+			}
+		}
+
+
+
+
+
+.section-gradient-white {
+	position: relative;
+	background: linear-gradient(to bottom, rgba($text-white,0) 0%,rgba($text-white,1) 100%);
+	width: 100%;
+	height: 400px;
+}
+
+
+
+
+
+
+
+
+.about-bio {
+	background-color: $text-white;
+	// right: 0;
+}
+
+.about-section .inner-wrapper {
+	position: relative;
+	width: 90%;
+	// display: flex;
+	// align-items: flex-start;
+	// justify-content: space-between;
+	// border: 2px solid green;
+
+	& > * {
+		// border: 1px solid red;
+	}
+}
+
+	.about-text {
+		min-width: 600px;
+		width: 600px;
+		padding-top: 600px;
+		// display: inline-block;
+	}
+
+		.bio-paragraph {
+			font-size: 28px;
+			margin-bottom: 300px;
+		}
+
+	
+		.about-title {
+			position: fixed;
+			text-transform: uppercase;
+			text-align: right;
+			font-size: 140px;
+			color: $text-black;
+			top: 20%;
+			right: 2%;
+			opacity: 0;
+			pointer-events: none;
+
+			&.about-title--tech {
+				font-size: 120px;
+				left: 2%;
+				right: auto;
+				text-align: left;
+			}
+
+			&.about-title--process {
+				text-align: left;
+			}
+		}
+
+	.contact-cta, .work-cta {
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+
+		.cta-title {
+			font-size: 40px;
+			text-transform: uppercase;
+			color: $text-black;
+			margin-bottom: 30px;
+		}
+
+		.btn-cta {
+			font-size: 30px;
+			text-transform: uppercase;
+			background-color: $primary;
+			color: $text-white;
+			padding: 20px 30px;
+
+			i {
+				margin-right: 5px;
+			}
+		}
+	}
+
+	.work-cta {
+		display: flex;
+		// flex-direction: row;
+
+		.cta-title {
+			// margin-bottom: 50px;
+		}
+	}
+
+	
+
+
+	.about-technical {
+		background-color: blue;
+
+		.inner-wrapper {
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		.about-text {
+			position: relative;
+			min-width: 700px;
+			width: 700px;
+		}
+	}
+
+
+	.about-section .secondary-title {
+		font-size: 50px;
+		text-transform: uppercase;
+		// margin-bottom: 50px;
+		color: $text-white;
+		background-color: $primary;
+		background: linear-gradient(to right, rgba(2,107,116,1) 0%,rgba(2,107,116,0.25) 100%);
+		text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+		padding: 5px 20px;
+		margin-bottom: 30px;
+	}
+
+	.skills-list, .tools-list, .process-list {
+		list-style-type: none;
+		margin-left: 0;
+		padding-left: 0;
+		margin-bottom: 100px;
+
+	}
+
+		.skill, .tool, .process {
+			box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.2);
+			padding: 5px 10px;
+			margin-bottom: 30px;
+			background: transparent;
+			transition: all 0.3s ease-in-out;
+
+			&:hover {
+				color: $text-white;
+				// background-color: $primary;
+				background: linear-gradient(to right, rgba(2,107,116,1) 0%,rgba(2,107,116,0.25) 100%);
+
+				.skill-description,
+				.tool-description,
+				.process-description {
+					text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+				}
+			}
+		}
+
+
+
+
+	.tools-list {}
+
+		.tool {}
+
+			.tool-name {}
+
+			.tool-description {}
+
+
+	.process-name, .process-description {
+		text-align: center;
+	}

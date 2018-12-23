@@ -1,0 +1,43 @@
+.website {
+	position: relative;
+	// min-height: 100vh;
+	background-color: $background;
+	padding-top: 90px;
+	// background-image: url(../img/thetrimtab.png);
+	// background-attachment: fixed;
+}
+
+
+// .section-gradient-grey {
+// 	position: relative;
+// 	background: linear-gradient(to bottom, rgba(#43474E,0) 0%,rgba(#43474E,1) 100%);
+// 	width: 100%;
+// 	height: 400px;
+// }
+
+	.website__title {
+		text-align: center;
+	}
+
+	.website__info {
+		display: flex;
+		justify-content: space-between;
+	}
+
+		.website__image  {
+			max-width: 50%;
+		}
+
+		.website__details {
+			color: $text-white;
+		}
+
+
+.website__description {}
+
+.website__navigation {}
+
+
+.website, .website__description, .website__navigation {
+	padding: 50px 0;
+}

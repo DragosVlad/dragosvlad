@@ -15,7 +15,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-get_header('home');
+// get_header('home');
+get_header();
 
 $container   = get_theme_mod( 'understrap_container_type' );
 ?>
@@ -68,8 +69,8 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 						<div class="home-hero__description">
 							<p class="hero-description">I am a freelance Web Developer located in Romania. I love building engaging websites with cool animations and effects that will leave a great impact on your site's visitors.</p>
-							<h3>You can turn your ideas into reality!</h3>
-							<a href="#" class="btn btn-accent"><i class="fa fa-hand-o-right"></i>LET’S CREATE SOMETHING GREAT</a>
+							<h3>My job is to turn your ideas into reality!</h3>
+							<a href="#" class="btn btn-accent"><i class="fa fa-hand-o-right"></i>LET’S CREATE SOMETHING GREAT!</a>
 
 							<p class="hero-description__work">... or you can check out my work below</p>
 							<!-- <a class="btn btn-main">Check out my work</a> -->
@@ -80,12 +81,13 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 					</section> <!-- .home-hero -->
 
+					<div class="section-gradient"></div>
 
 					<section class="home-section home-work">
 
-						<div class="inner-wrapper">
+						<h1 class="title title--work text-center"><span>Work</span><span>Work</span><span>Work</span></h1>
 
-							<h1 class="title text-center">Work</h1>
+						<div class="inner-wrapper">
 
 							<div class="project__container project__container1">
 
@@ -236,26 +238,34 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 					</section> -->
 
-
+					
 					<section class="home-section home-contact">
+
+						<h1 class="title title--contact text-center"><span>Contact</span><span>Contact</span></h1>
 
 						<div class="inner-wrapper">
 						
-							<h1 class="title text-center">Contact</h1>
+							<h2 class="secondary-title">Have a big idea or just want to talk?</h2>
 
-							<!-- <div class="row">
+							<div class="row">
 								<div class="col-md-6">
-									<a href="mailto:dragos.vlad95@gmail.com" class="contact-email">dragos.vlad95@gmail.com</a>
+									<h3 class="subtitle">Drop me a line at:</h3>
+									<a href="mailto:dragos.vlad95@gmail.com" class="contact-email"><i class="fa fa-envelope-o" aria-hidden="true"></i>dragos.vlad95@gmail.com</a>
 
+									<h3 class="subtitle">You can also find me on:</h3>
 									<ul class="contact-social">
-										<li><a href="#">Fb</a></li>
-										<li><a href="#">Tw</a></li>
-										<li><a href="#">Linked</a></li>
+										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 									</ul>
 
 								</div>
-								<div class="col-md-6">Form</div>
-							</div> -->
+								<div class="col-md-6">
+									<h3 class="subtitle">Let's Talk</h3>
+
+									<?php echo do_shortcode('[contact-form-7 id="8" title="Contact form 1"]'); ?>
+								</div>
+							</div>
 
 						</div> <!-- .inner-wrapper -->
 
@@ -277,5 +287,4 @@ $container   = get_theme_mod( 'understrap_container_type' );
 	</div><!-- Container end -->
 
 </div><!-- Wrapper end -->
-
 <?php get_footer(); ?>

@@ -1,0 +1,163 @@
+.work-content {
+	position: relative;
+}
+
+	.work-background-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		transition: all 0.3s ease-in-out;
+
+		&:before {
+			display: block;
+			content: "";
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			z-index: -10;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: cover;
+			background-color: #43474E;
+			// background-image: url(../img/thetrimtab.png);
+			transition: all 0.6s ease-in-out;
+			filter: blur(4px);
+			transform: scale(1.1);
+		}
+
+		&.thetrimtab {
+			&:before {
+				background-image: url(../img/thetrimtab.png);
+			}
+		}
+
+		&.hollandzone {
+			&:before {
+				background-image: url(../img/hollandzone.jpg);
+			}
+		}
+
+		&.wedding {
+			&:before {
+				background-image: url(../img/wedding.png);
+			}
+		}
+	}
+
+.project {
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: $text-white;
+	text-align: center;
+}
+
+	.project-text {
+		width: 80%;
+		// background: linear-gradient(to right, rgba(2,107,116,1) 0%,rgba(2,107,116,0.25) 100%);
+	}
+
+	.project-title {
+		position: relative;
+		margin-bottom: 30px;
+		text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+		
+
+		a {
+			position: relative;
+			font-size: 60px;
+			padding: 10px 20px;
+			color: $text-white;
+			display: block;
+			transition: all 0.3s ease-in-out;
+			
+			&:hover {
+				text-decoration: none;
+
+				&:after {
+					transform: scaleX(1);
+				}
+
+			}
+
+			&:after {
+				position: absolute;
+				display: block;
+				content: '';
+				z-index: -1;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				bottom: 0;
+				background: linear-gradient(to right, rgba(2,107,116,1) 0%,rgba(2,107,116,0.25) 100%);
+				transform: scaleX(0);
+				transform-origin: left;
+				transition: all 0.3s cubic-bezier(.45,.78,.6,.39);
+			}
+		}
+
+		
+	}
+
+	.project-details {
+		font-size: 30px;
+		text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+		margin-bottom: 30px;
+
+	}
+
+
+	.project-overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.2);
+		z-index: -1;
+	}
+
+	.project-thetrimtab .project-text {
+		// margin-top: -300px;
+	}
+
+
+	
+.project-text {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-60%);
+	opacity: 0;
+	z-index: 10;
+}
+
+
+.project-wedding {
+	min-height: 200vh;
+
+	.project-overlay {
+		// padding-bottom: 200px;
+	}
+}
+
+
+.page-template-work #wrapper-footer-full {
+	z-index: 11;
+}
+
+
+.work-cta {
+	background-color: $text-white;
+	position: relative;
+	z-index: 11;
+	padding: 50px 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

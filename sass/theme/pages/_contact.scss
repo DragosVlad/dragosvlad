@@ -1,0 +1,35 @@
+.contact-hero {
+	background-color: black;
+	width: 100%;
+	min-height: 100vh;
+	background-image: url('../img/contact-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.title {
+		font-size: 80px;
+		text-align: center;
+		line-height: 1.4;
+		text-transform: uppercase;
+	}
+}
+
+.contact-content {
+	padding-top: 100px;
+	text-align: center;
+	background-color: #43474E;
+	color: $text-white;
+
+	.secondary-title {
+		text-transform: uppercase;
+		// margin-top: 100px;
+		margin-bottom: 50px;
+		line-height: 1.4;
+		font-size: 40px;
+	}
+
+}
