@@ -42,17 +42,17 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						<section class="project project-hollandzone">
 							<!-- <div class="project-overlay"></div> -->
 							<div class="project-text">
-								<h1 class="project-title"><a href="#">Holland Zone</a></h1>
+								<h1 class="project-title"><a href="http://localhost:3000/dragosvlad.com/holland-zone/">Holland Zone</a></h1>
 								<p class="project-details">WordPress Website</p>
-								<a class="btn btn-main" href="#"><i class="fa fa-hand-o-right"></i> View Case Study</a>
+								<a class="btn btn-main" href="http://localhost:3000/dragosvlad.com/holland-zone/"><i class="fa fa-hand-o-right"></i> View Case Study</a>
 							</div>
 						</section>
 						<section class="project project-wedding">
 							<!-- <div class="project-overlay"></div> -->
 							<div class="project-text">
-								<h1 class="project-title"><a href="#">Dragos & Carmina</a></h1>
+								<h1 class="project-title"><a href="http://localhost:3000/dragosvlad.com/wedding-website/">Dragos & Carmina</a></h1>
 								<p class="project-details">WordPress Website</p>
-								<a class="btn btn-main" href="#"><i class="fa fa-hand-o-right"></i> View Case Study</a>
+								<a class="btn btn-main" href="http://localhost:3000/dragosvlad.com/wedding-website/"><i class="fa fa-hand-o-right"></i> View Case Study</a>
 							</div>
 						</section>
 	
@@ -61,7 +61,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						<section class="work-cta">
 							<div class="contact-cta">
 								<h3 class="cta-title">Interested in working together?</h3>
-								<a href="#" class="btn btn-cta"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Hire me</a>
+								<a href="http://localhost:3000/dragosvlad.com/contact/" class="btn btn-cta"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Hire me</a>
 							</div>
 						</section>
 

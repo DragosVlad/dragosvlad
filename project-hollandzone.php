@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: The Trim Tab Page
+ * Template Name: Holland Zone Page
  * @package understrap
  */
 
@@ -30,23 +30,22 @@ $container   = get_theme_mod( 'understrap_container_type' );
 					<section class="website">
 
 						<div class="inner-wrapper">
-							<h1 class="title website__title">The Trim Tab</h1>
+							<h1 class="title website__title">Holland Zone</h1>
 
 							<div class="website__info">
 								<div class="container">
 									<div class="row">
 										<div class="col-md-6">
 											<div class="website__image">
-												<img src="<?php echo get_stylesheet_directory_uri() . '/img/project1.png'; ?>">
+												<img src="<?php echo get_stylesheet_directory_uri() . '/img/hollandzone.jpg'; ?>">
 											</div>
 										</div>
 										<div class="col-md-6">
 											<div class="website__details">
-												<h2 class="secondary-title">WordPress Website</h2>
+												<h2 class="secondary-title">HTML Website</h2>
 												<ul class="website__details-list">
-													<li class="website__details-item">WordPress</li>
-													<li class="website__details-item">Theme Customisation</li>
-													<li class="website__details-item">Javascript Animations</li>
+													<li class="website__details-item">Front-End Design</li>
+													<li class="website__details-item">Javascript</li>
 													<li class="website__details-item">HTML</li>
 													<li class="website__details-item">CSS</li>
 												</ul>
@@ -66,9 +65,9 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 					<section class="website__description">
 						<div class="inner-wrapper">
-							<p>The Trim Tab is a group of guys passioned about Radio Controlled gadgets and toys. They needed a website where they could share their adventures.</p>
-							<p>The main objective of the website was to design an interesting home page and create three different types of posts: standard article, gallery of images and a video post.</p>
-							<p>Starting from a basic WordPress theme that I modified a lot, I designed the website and managed to create the three different types of posts. I made them look very different, each having a unique design. </p>
+							<p>The client needed a website designed for posting blog articles about different events, festivals and concerts taking place in Netherlands.</p>
+							<p>I received some low fidelity wireframes and my role was to come up with a design based on them, in HTML and CSS. He had a CMS he used for the back-end, and I was responsible for the front-end.</p>
+							<p>I added some Javascript functionality like gallery carousels, tab navigation and other minor tweaks.</p>
 							<a href="#" class="btn btn-main">Go to Live Website <i class="fa fa-external-link"></i></a>
 						</div>
 					</section>
@@ -76,11 +75,11 @@ $container   = get_theme_mod( 'understrap_container_type' );
 					<section class="website__navigation">
 						<div class="inner-wrapper">
 							<div class="navigation__buttons">
-								<div class="navigation__button prev disabled">
-									<a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i> Previous<br>Project</a>
+								<div class="navigation__button prev">
+									<a href="http://localhost:3000/dragosvlad.com/the-trim-tab/"><i class="fa fa-angle-left" aria-hidden="true"></i> Previous<br>Project</a>
 								</div>
 								<div class="navigation__button next">
-									<a href="http://localhost:3000/dragosvlad.com/holland-zone/">Next<br>Project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+									<a href="http://localhost:3000/dragosvlad.com/wedding-website/">Next<br>Project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 								</div>
 							</div>
 						</div>

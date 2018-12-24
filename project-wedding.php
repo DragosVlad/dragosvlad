@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: The Trim Tab Page
+ * Template Name: Wedding Website Page
  * @package understrap
  */
 
@@ -30,19 +30,19 @@ $container   = get_theme_mod( 'understrap_container_type' );
 					<section class="website">
 
 						<div class="inner-wrapper">
-							<h1 class="title website__title">The Trim Tab</h1>
+							<h1 class="title website__title">Dragos & Carmina</h1>
 
 							<div class="website__info">
 								<div class="container">
 									<div class="row">
 										<div class="col-md-6">
 											<div class="website__image">
-												<img src="<?php echo get_stylesheet_directory_uri() . '/img/project1.png'; ?>">
+												<img src="<?php echo get_stylesheet_directory_uri() . '/img/wedding.png'; ?>">
 											</div>
 										</div>
 										<div class="col-md-6">
 											<div class="website__details">
-												<h2 class="secondary-title">WordPress Website</h2>
+												<h2 class="secondary-title">WordPress Personal Wedding Website</h2>
 												<ul class="website__details-list">
 													<li class="website__details-item">WordPress</li>
 													<li class="website__details-item">Theme Customisation</li>
@@ -66,9 +66,9 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 					<section class="website__description">
 						<div class="inner-wrapper">
-							<p>The Trim Tab is a group of guys passioned about Radio Controlled gadgets and toys. They needed a website where they could share their adventures.</p>
-							<p>The main objective of the website was to design an interesting home page and create three different types of posts: standard article, gallery of images and a video post.</p>
-							<p>Starting from a basic WordPress theme that I modified a lot, I designed the website and managed to create the three different types of posts. I made them look very different, each having a unique design. </p>
+							<p>This is the actual website I created for my wedding. Yes, that's me and my wife.</p>
+							<p>I created it in WordPress and made a custom page for the home page. The main purpose of the website was to announce the wedding date and location. Also, people had the posibility to send their RSVP directly from the website.</p>
+							<p>I added interesting Javascript animations and scrolling effects, forms that send the information to my email and Google Maps integration to show where the events will be. People seemed to like the website and the idea behind it.</p>
 							<a href="#" class="btn btn-main">Go to Live Website <i class="fa fa-external-link"></i></a>
 						</div>
 					</section>
@@ -76,11 +76,11 @@ $container   = get_theme_mod( 'understrap_container_type' );
 					<section class="website__navigation">
 						<div class="inner-wrapper">
 							<div class="navigation__buttons">
-								<div class="navigation__button prev disabled">
-									<a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i> Previous<br>Project</a>
+								<div class="navigation__button prev">
+									<a href="http://localhost:3000/dragosvlad.com/holland-zone/"><i class="fa fa-angle-left" aria-hidden="true"></i> Previous<br>Project</a>
 								</div>
-								<div class="navigation__button next">
-									<a href="http://localhost:3000/dragosvlad.com/holland-zone/">Next<br>Project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+								<div class="navigation__button next disabled">
+									<a href="#">Next<br>Project <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 								</div>
 							</div>
 						</div>

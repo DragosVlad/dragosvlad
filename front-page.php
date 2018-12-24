@@ -70,7 +70,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						<div class="home-hero__description">
 							<p class="hero-description">I am a freelance Web Developer located in Romania. I love building engaging websites with cool animations and effects that will leave a great impact on your site's visitors.</p>
 							<h3>My job is to turn your ideas into reality!</h3>
-							<a href="#" class="btn btn-accent"><i class="fa fa-hand-o-right"></i>LET’S CREATE SOMETHING GREAT!</a>
+							<a href="#" id="heroCta" class="btn btn-accent"><i class="fa fa-hand-o-right"></i>LET’S CREATE SOMETHING GREAT!</a>
 
 							<p class="hero-description__work">... or you can check out my work below</p>
 							<!-- <a class="btn btn-main">Check out my work</a> -->
@@ -94,16 +94,16 @@ $container   = get_theme_mod( 'understrap_container_type' );
 								<div class="work__project work__project1">
 
 									<div class="project__thumb">
-										<img src="<?php echo get_stylesheet_directory_uri() . '/img/project1.png'; ?>">
+										<img src="<?php echo get_stylesheet_directory_uri() . '/img/thetrimtab-logo.png'; ?>">
 									</div>
 
 									<div class="project__text">
 
 										<h2 class="secondary-title">The Trim Tab</h2>
 
-										<p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita autem dicta tempora sed, id nihil temporibus unde officiis pariatur repellendus.</p>
+										<p class="project__description">WordPress Website for publishing posts about radio-controlled gadgets with custom design created from a basic theme</p>
 
-										<div class="project__link"><a href="#">Go To Case Study</a></div>
+										<div class="project__link"><a href="http://localhost:3000/dragosvlad.com/the-trim-tab/">Go To Case Study</a></div>
 
 									</div>
 
@@ -119,16 +119,16 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 									<div class="project__text">
 
-										<h2 class="secondary-title">The Trim Tab</h2>
+										<h2 class="secondary-title">Holland Zone</h2>
 
-										<p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita autem dicta tempora sed, id nihil temporibus unde officiis pariatur repellendus.</p>
+										<p class="project__description">A website about different events, festivals and concerts taking place in Netherlands.</p>
 
-										<div class="project__link"><a href="#">Go To Case Study</a></div>
+										<div class="project__link"><a href="http://localhost:3000/dragosvlad.com/holland-zone/">Go To Case Study</a></div>
 
 									</div>
 
 									<div class="project__thumb">
-										<img src="<?php echo get_stylesheet_directory_uri() . '/img/project1.png'; ?>">
+										<img src="<?php echo get_stylesheet_directory_uri() . '/img/hollandzone-logo.png'; ?>">
 									</div>
 
 									<div class="mouse-text2">View<br>Project</div>
@@ -254,9 +254,9 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 									<h3 class="subtitle">You can also find me on:</h3>
 									<ul class="contact-social">
-										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/dragoș-vlad-crăciunoiu-5862ab139" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+										<li><a href="https://www.facebook.com/Goosh1" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="https://twitter.com/Go_osh1" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 									</ul>
 
 								</div>

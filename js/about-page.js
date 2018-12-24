@@ -18,7 +18,6 @@
 
 	})
 	.setPin('.about-hero', {pushFollowers: false})
-	.addIndicators()
 	.addTo(controller);
 
 
@@ -37,7 +36,6 @@
 	  duration: '200%',
 	})
 	.setTween(aboutHeroTl)
-	.addIndicators()
 	.addTo(controller);
 
 
@@ -56,7 +54,6 @@
 	    triggerHook: 0.8,
 	  })
 	  .setTween(bioTextTween)
-	  .addIndicators()
 	  .addTo(controller);
 	});
 

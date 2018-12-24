@@ -72,7 +72,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 							<div class="contact-cta">
 								<h3 class="cta-title">Interested in working together?</h3>
-								<a href="#" class="btn btn-cta"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Hire me</a>
+								<a href="http://localhost:3000/dragosvlad.com/contact/" class="btn btn-cta"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Hire me</a>
 							</div>
 							
 							<!-- <div class="about-title-wrapper"> -->
@@ -152,7 +152,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 								<div class="work-cta">
 									<h3 class="cta-title">See these skills in action</h3>
-									<a href="#" class="btn btn-cta"><i class="fa fa-hand-o-right" aria-hidden="true"></i> View My Work</a>
+									<a href="http://localhost:3000/dragosvlad.com/work/" class="btn btn-cta"><i class="fa fa-hand-o-right" aria-hidden="true"></i> View My Work</a>
 								</div>
 
 							</div>
@@ -215,7 +215,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 							<div class="contact-cta">
 								<h3 class="cta-title">Interested in working together?</h3>
-								<a href="#" class="btn btn-cta"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Hire me</a>
+								<a href="http://localhost:3000/dragosvlad.com/contact/" class="btn btn-cta"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Hire me</a>
 							</div>
 
 						</div>

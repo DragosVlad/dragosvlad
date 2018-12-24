@@ -7,18 +7,6 @@
 
 
 
-
-	// var text = $('.project-text');
-
-	// new ScrollMagic.Scene({
-	// 	triggerElement: text,
-	// 	triggerHook: 0.5,
-	// })
-	// .setPin(text)
-	// .addIndicators()
-	// .addTo(controller);
-
-
 	var projectTween1 = TweenMax.fromTo('.project-thetrimtab .project-text', 0.5, {y:'50px', autoAlpha: 0}, {y:'-50%', autoAlpha: 1, ease: Power1.easeInOut, paused: false});
 	var projectTween2 = TweenMax.fromTo('.project-hollandzone .project-text', 0.5, {y:'50px', autoAlpha: 0}, {y:'-50%', autoAlpha: 1, ease: Power1.easeInOut, paused: true});
 	var projectTween3 = TweenMax.fromTo('.project-wedding .project-text', 0.5, {y:'50px', autoAlpha: 0}, {y:'-50%', autoAlpha: 1, ease: Power1.easeInOut, paused: true});
@@ -72,22 +60,6 @@
 
 	
 	});
-
-
-	// TweenMax.from(this, 1, {y:'-50px', autoAlpha: 0, ease: Power3.easeInOut});
-
-	// $('.project-text').each(function() {
-
-	// 	new ScrollMagic.Scene({
-	// 		triggerElement: this,
-	// 		triggerHook: 0.8,
-	// 	})
-	// 	.setTween(TweenMax.from(this, 1, {y:'50px', autoAlpha: 0, ease: Power3.easeInOut}))
-	// 	.addIndicators()
-	// 	.addTo(controller);
-
-	// });
-
 
 	
 

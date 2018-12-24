@@ -50,9 +50,9 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 									<h3 class="subtitle">You can also find me on:</h3>
 									<ul class="contact-social">
-										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/dragoș-vlad-crăciunoiu-5862ab139" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+										<li><a href="https://www.facebook.com/Goosh1" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="https://twitter.com/Go_osh1" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 									</ul>
 
 								</div>

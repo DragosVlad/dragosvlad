@@ -2,7 +2,8 @@
 	position: relative;
 	// min-height: 100vh;
 	background-color: $background;
-	padding-top: 90px;
+	padding-top: calc(90px + 50px);
+	padding-bottom: 50px;
 	// background-image: url(../img/thetrimtab.png);
 	// background-attachment: fixed;
 }
@@ -20,24 +21,108 @@
 	}
 
 	.website__info {
+		// display: flex;
+		// justify-content: space-between;
+	}
+
+		.website__image  {
+			// max-width: 50%;
+		}
+
+		.website__details {
+			margin-left: auto;
+			position: relative;
+			right: 0;
+			padding-left: 30%;
+			color: $text-white;
+
+			.secondary-title {
+				margin-bottom: 30px;
+			}
+
+			.btn i {
+				margin-left: 5px;
+			}
+		}
+
+			.website__details-list {
+				list-style-type: none;
+				padding-left: 0;
+				display: flex;
+				flex-wrap: wrap;
+			}
+
+				.website__details-item {
+					// display: inline-block;
+					margin-right: 10px;
+					margin-bottom: 10px;
+					background-color: $text-white;
+					color: $text-black;
+					padding: 5px 10px;
+					border-radius: 5px;
+				}
+
+
+.website__description, .website__navigation {
+	padding: 50px 0 50px;
+}
+
+.website__description {
+	padding: 50px 100px;
+	font-size: 26px;
+	background-color: $text-white;
+
+	p {
+		margin-bottom: 40px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.website__navigation {
+	background-color: $text-white;
+}
+
+	.navigation__buttons {
 		display: flex;
 		justify-content: space-between;
 	}
 
-		.website__image  {
-			max-width: 50%;
+	.navigation__button {
+		font-size: 30px;
+
+		a {
+			display: flex;
+			align-items: center;
+
+			&:hover {
+				text-decoration: none;
+			}
+
+			i {
+				font-size: 60px;
+				margin-right: 30px;
+			}
 		}
 
-		.website__details {
-			color: $text-white;
+		&.next {
+			a i {
+				margin-right: 0;
+				margin-left: 30px;
+			}
 		}
 
+		&.disabled a {
+			color: $text-black;
+			opacity: 0.4;
+			pointer-events: none;
+		}
+	}
 
-.website__description {}
 
-.website__navigation {}
-
-
-.website, .website__description, .website__navigation {
-	padding: 50px 0;
+.work-cta.project-page {
+	background-color: white;
 }
+

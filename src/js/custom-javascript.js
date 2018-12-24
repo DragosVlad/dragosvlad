@@ -45,7 +45,6 @@
     triggerHook: 0,
   })
   .setPin(menu, {pushFollowers: false})
-  .addIndicators()
   .addTo(controller);
 
 
@@ -164,6 +163,13 @@
       });
 
 
+      $(".project__container1").on('click', function() {
+        window.location = "http://localhost:3000/dragosvlad.com/the-trim-tab/";
+      });
+
+      $(".project__container2").on('click', function() {
+        window.location = "http://localhost:3000/dragosvlad.com/holland-zone/";
+      });
 
 
 
@@ -239,8 +245,12 @@
 
 
 
+      var homeCta = $('#heroCta');
 
-
+      homeCta.on('click', function(e) {
+        e.preventDefault();
+        TweenMax.to(window, 1, {scrollTo:{y:".home-contact", offsetY:70}, ease:Power2.easeInOut});
+      });
      
 
 
